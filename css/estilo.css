@@ -1,0 +1,94 @@
+/* Configuração padrão da página*/
+
+body, html {
+  font-family: 'Anton', sans-serif;
+  margin: 0;
+  font-size: 16px;
+  color: #777;
+  height: 100%;
+  background: #5566ff88;
+}
+
+.conteudo {
+  color: #000000;
+  background-color: #5566ff88;
+  text-align: justify;
+  padding: 50px 80px;
+}
+
+.divisor {
+  background: black;
+  width: 100%;
+  height: 10px;
+}
+
+h3 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  color: #111;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+/* Efeito parallax */
+
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6, .caixa7 {
+  position: relative;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /*opacity deixa opaco vai de 0 a 1*/
+}
+
+.caixa1 {
+  background-image: url(../imagens/imagem-topo.png);
+}
+
+.caixa2 {
+  background-image: url(../imagens/vscode.jpg);
+}
+
+.caixa3 {
+  background-image: url(../imagens/salario.jpg);
+}
+
+.caixa4 {
+  background-image: url(../imagens/ds.jpg);
+}
+
+.caixa5 {
+  background-image: url(../imagens/lab_1.jpeg);
+}
+
+.caixa6 {
+  background-image: url(../imagens/imagem6.jpg);
+}
+
+.caixa7 {
+  background-image: url(../imagens/imagem6.jpg);
+}
+
+.conteudo-titulo {
+  position: absolute;
+  left: 0;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.conteudo-titulo span.titulo {
+  color: #fff;
+  background-color: #111;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
