@@ -1,25 +1,20 @@
 /* Configuração padrão da página*/
 
 body, html {
-  font-family: 'Anton', sans-serif;
+  font-family: 'Tektur', cursive;
   margin: 0;
   font-size: 16px;
   color: #777;
   height: 100%;
-  background: #5566ff88;
+  background: purple;
 }
 
 .conteudo {
-  color: #000000;
-  background-color: #5566ff88;
+  color: #fff;
+  background: purple url(../imagens/conteudofundo.png) no-repeat top;
   text-align: justify;
   padding: 50px 80px;
-}
-
-.divisor {
-  background: black;
-  width: 100%;
-  height: 10px;
+  background-size: cover;
 }
 
 h3 {
@@ -91,4 +86,5 @@ p {
   padding: 18px;
   font-size: 25px;
   letter-spacing: 5px;
+  margin-top: 20px;
 }
