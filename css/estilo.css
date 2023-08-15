@@ -44,7 +44,7 @@ p {
 }
 
 .caixa1 {
-  background-image: url(../imagens/imagem-topo.png);
+  background-image: url(../imagens/imagem-topo2-transformed.jpeg);
 }
 
 .caixa2 {
@@ -56,15 +56,15 @@ p {
 }
 
 .caixa4 {
-  background-image: url(../imagens/ds.jpg);
+  background-image: url(../imagens/ds-TeRYKMNJp-transformed.jpeg);
 }
 
 .caixa5 {
-  background-image: url(../imagens/lab_1.jpeg);
+  background-image: url(../imagens/lab1-transformed.jpeg);
 }
 
 .caixa6 {
-  background-image: url(../imagens/imagem6.jpg);
+  background-image: url(../imagens/conteudofundo1.png);
 }
 
 .caixa7 {
@@ -78,6 +78,7 @@ p {
   width: 100%;
   text-align: center;
   text-transform: uppercase;
+  line-height: 60px;
 }
 
 .conteudo-titulo span.titulo {
