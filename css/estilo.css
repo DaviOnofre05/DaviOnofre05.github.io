@@ -3,7 +3,7 @@
 body, html {
   font-family: 'Tektur', cursive;
   margin: 0;
-  font-size: 16px;
+  font-size: 20px;
   color: #777;
   height: 100%;
   background: purple;
@@ -17,11 +17,19 @@ body, html {
   background-size: cover;
 }
 
+.conteudo1 {
+  color: #fff;
+  text-align: justify;
+  padding: 50px 80px;
+  background-size: cover;
+}
+
 h3 {
   font-size: 1.6em;
   text-transform: uppercase;
   color: #111;
   text-align: center;
+  
 }
 
 p {
@@ -29,6 +37,37 @@ p {
   margin-bottom: 20px;
   text-align: center;
   padding-bottom: 25px;
+}
+
+#alura {
+  color: #fff;
+  background-color: #111;
+  text-align: center;
+  height: 100px;
+  font-size: 70px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  background-color: #0000003b;
+  text-decoration: none;
+}
+.btn::after {
+  content: "↑";
+  font-size: 32px;
+  font-weight: bold;
+  color: aliceblue;
+  transition: margin-top 250ms;
+}
+.btn:hover::after {
+  margin-top:-8px;
 }
 
 /* Efeito parallax */
@@ -44,7 +83,7 @@ p {
 }
 
 .caixa1 {
-  background-image: url(../imagens/imagem-topo3-transformed.jpg);
+  background-image: url(../imagens/imagem-topo__-transformed.jpeg);
 }
 
 .caixa2 {
@@ -64,11 +103,11 @@ p {
 }
 
 .caixa6 {
-  background-image: url(../imagens/conteudofundo1.png);
+  background-image: url(../imagens/conteudofundo.png);
 }
 
 .caixa7 {
-  background-image: url(../imagens/imagem6.jpg);
+  background-image: url(../imagens/conteudofundo1.png);
 }
 
 .conteudo-titulo {
@@ -78,13 +117,14 @@ p {
   width: 100%;
   text-align: center;
   text-transform: uppercase;
-  line-height: 60px;
+  line-height: 70px;
 }
 
 .conteudo-titulo span.titulo {
+  text-align: center;
   color: #fff;
-  background-color: #111;
-  padding: 18px;
+  background-color: #111111;
+  padding: 20px;
   font-size: 25px;
   letter-spacing: 5px;
   margin-top: 20px;
